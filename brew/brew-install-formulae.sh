@@ -1,4 +1,6 @@
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#!/usr/bin/env bash
+set -e
+
 brew install bash
 brew install zsh
 brew install node
