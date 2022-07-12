@@ -3,7 +3,7 @@ set -e
 
 brew install bash
 brew install zsh
-brew install node
+brew install nvm
 brew install yarn
 brew install git
 brew install hub
