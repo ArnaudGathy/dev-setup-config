@@ -117,7 +117,6 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias gc="git checkout"
-alias gcp="git checkout publish"
 alias gcpd="git checkout develop"
 alias gpush='git push origin "$(git_current_branch)"'
 alias gp="git pull"
@@ -128,10 +127,7 @@ alias cpip="ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2 | tr -d '\
 alias ip="ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2"
 alias deletelocalbranch="git branch -D"
 alias deleteremotebranch="git push origin --delete"
-alias start="npm run start:dev"
-alias start:build="npm run start"
-alias start:demo="npm run start:demo-hot-reload"
+alias start="npm run start"
 alias links="npm ls --depth=0 --link=true"
-alias setup="nvm use;npm i;npm run installDemo;npm run start:dev"
 
 prompt_context(){}
