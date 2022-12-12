@@ -1,5 +1,5 @@
 {
-  "Working Directory" : "\/Users\/arnaudgathy\/Documents",
+  "Working Directory" : "\/Users\/arnaudgathy\/Documents\/projects\/eLottoRct",
   "Prompt Before Closing 2" : false,
   "Selected Text Color" : {
     "Red Component" : 0.57647058823529407,
@@ -26,7 +26,7 @@
   "Right Option Key Sends" : 0,
   "Character Encoding" : 4,
   "Selection Color" : {
-    "Red Component" : 0.027450980392156862,
+    "Red Component" : 0.027450980392156866,
     "Color Space" : "sRGB",
     "Blue Component" : 0.25882352941176473,
     "Green Component" : 0.21176470588235294
@@ -268,7 +268,7 @@
   "Ansi 9 Color" : {
     "Red Component" : 0.79607843137254897,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.086274509803921567,
+    "Blue Component" : 0.086274509803921581,
     "Green Component" : 0.29411764705882354
   },
   "Use Bold Font" : true,
@@ -284,7 +284,7 @@
   "Has Hotkey" : true,
   "HotKey Modifier Activation" : 0,
   "Cursor Text Color" : {
-    "Red Component" : 0.027450980392156862,
+    "Red Component" : 0.027450980392156866,
     "Color Space" : "sRGB",
     "Blue Component" : 0.25882352941176473,
     "Green Component" : 0.21176470588235294
@@ -305,7 +305,7 @@
   },
   "Name" : "Default",
   "Blinking Cursor" : false,
-  "Guid" : "74F72ED0-E367-4025-81CD-389B7A0F9563",
+  "Guid" : "A6E095C6-63D0-4F7A-9367-29AD94BB7EBC",
   "Idle Code" : 0,
   "Ansi 10 Color" : {
     "Red Component" : 0.34509803921568627,
@@ -367,10 +367,10 @@
     "Blue Component" : 0.59607843137254901,
     "Green Component" : 0.63137254901960782
   },
-  "Transparency" : 0.045149904822335024,
+  "Transparency" : 0.045149904822335017,
   "HotKey Activated By Modifier" : false,
   "Background Color" : {
-    "Red Component" : 0.027450980392156862,
+    "Red Component" : 0.027450980392156866,
     "Color Space" : "sRGB",
     "Blue Component" : 0.25882352941176473,
     "Alpha Component" : 1,
