@@ -1,9 +1,10 @@
 source /Users/arnaudgathy/.zprofile
 
-export PATH=/opt/apache-maven-3.8.3/bin:/usr/local/bin:$PATH
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/arnaudgathy/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -71,7 +72,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize zsh-autosuggestions zsh-syntax-highlighting z zsh-nvm)
+plugins=(git colorize zsh-autosuggestions z zsh-nvm zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -116,18 +117,38 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 alias gc="git checkout"
-alias gcpd="git checkout develop"
+alias gcd="git checkout develop"
+alias gcb="git checkout -b"
 alias gpush='git push origin "$(git_current_branch)"'
 alias gp="git pull"
 alias gf="git fetch"
 alias discard!="git reset --hard"
 alias undo!="git reset --soft HEAD^1"
+alias stash="git stash -u"
+alias pop="git stash pop"
 alias cpip="ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2 | tr -d '\n' |  pbcopy"
 alias ip="ifconfig en0 | grep inet | grep -v inet6 | cut -d ' ' -f2"
 alias deletelocalbranch="git branch -D"
 alias deleteremotebranch="git push origin --delete"
-alias start="npm run start"
-alias links="npm ls --depth=0 --link=true"
+alias start="pnpm run start"
+alias links="pnpm ls --depth=0 --link=true"
+alias sshpi="ssh pi@192.168.1.32"
+alias vwstart="cd Documents/projects/VWsFriend && docker-compose --env-file ./myconfig.env up"
+alias kill3000="npx kill-port 3000"
+alias tags="git for-each-ref --sort=taggerdate --format '%(tag)'"
 
 prompt_context(){}
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+# pnpm
+export PNPM_HOME="/Users/arnaudgathy/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+source /Users/arnaudgathy/.docker/init-zsh.sh || true # Added by Docker Desktop
