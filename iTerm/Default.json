@@ -1,5 +1,5 @@
 {
-  "Working Directory" : "\/Users\/arnaudgathy\/Documents\/projects\/eLottoRct",
+  "Working Directory" : "\/Users\/arnaudgathy\/Documents\/projects\/ameo-web",
   "Prompt Before Closing 2" : false,
   "Selected Text Color" : {
     "Red Component" : 0.57647058823529407,
@@ -328,6 +328,11 @@
     "Green Component" : 0.1491314172744751
   },
   "Smart Cursor Color" : false,
+  "Semantic History" : {
+    "text" : "\/Applications\/WebStorm.app\/Contents\/MacOS\/webstorm \\1",
+    "action" : "command",
+    "editor" : "com.github.atom"
+  },
   "Ambiguous Double Width" : false,
   "Blur Radius" : 9.5000694003807133,
   "Ansi 0 Color" : {
@@ -338,7 +343,7 @@
     "Green Component" : 0.16862745098039217
   },
   "Blur" : true,
-  "Normal Font" : "MesloLGSDZForPowerline-Regular 15",
+  "Normal Font" : "MesloLGSDZForPowerline-Regular 16",
   "Vertical Spacing" : 1,
   "Ansi 7 Color" : {
     "Red Component" : 0.93333333333333335,
@@ -377,7 +382,7 @@
     "Green Component" : 0.21176470588235294
   },
   "Initial Text" : "",
-  "Screen" : 0,
+  "Screen" : -2,
   "HotKey Characters Ignoring Modifiers" : "@",
   "Non Ascii Font" : "Monaco 12",
   "Ansi 13 Color" : {
