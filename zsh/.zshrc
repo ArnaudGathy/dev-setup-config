@@ -72,7 +72,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize zsh-autosuggestions z zsh-nvm zsh-syntax-highlighting)
+plugins=(git colorize zsh-autosuggestions z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -140,26 +140,5 @@ alias kill3000="npx kill-port 3000"
 alias tags="git for-each-ref --sort=taggerdate --format '%(tag)'"
 
 prompt_context(){}
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
 
-# pnpm
-export PNPM_HOME="/Users/arnaudgathy/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
-source /Users/arnaudgathy/.docker/init-zsh.sh || true # Added by Docker Desktop
-
-# bun completions
-[ -s "/Users/arnaudgathy/.bun/_bun" ] && source "/Users/arnaudgathy/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

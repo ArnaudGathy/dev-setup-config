@@ -22,3 +22,4 @@ The config to setup the dev tools I use on Mac
   - [Install plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
       - See .zshrc for list
 - [nvm](https://github.com/nvm-sh/nvm)
+- Docker
