@@ -152,3 +152,14 @@ case ":$PATH:" in
 esac
 # pnpm end
 source /Users/arnaudgathy/.docker/init-zsh.sh || true # Added by Docker Desktop
+
+# bun completions
+[ -s "/Users/arnaudgathy/.bun/_bun" ] && source "/Users/arnaudgathy/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

@@ -9,6 +9,4 @@ brew install --cask fork
 brew install --cask spotify
 brew install --cask sublime-text
 brew install --cask visual-studio-code
-brew install --cask webstorm
-#brew install --cask ngrok
-#brew install --cask slack
+brew install --cask postman
