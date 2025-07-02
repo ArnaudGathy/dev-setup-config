@@ -3,18 +3,9 @@ The config to setup the dev tools I use on Mac
 
 ## Tools to install
 - Chrome
-- Webstorm
-  - Import config
-- [nvm](https://github.com/nvm-sh/nvm)
-- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki)
-  - Import .zshrc
-  - [Install theme : Agnoster](https://github.com/agnoster/agnoster-zsh-theme)
-    - [Install powerline fonts](https://github.com/powerline/fonts)
-  - [Install plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
-    - See .zshrc for list
 - Homebrew - See install scripts
   - iTerm2
-    - Import config
+      - Import config
   - Rectangle
   - Caffeine
   - Fork
@@ -22,3 +13,12 @@ The config to setup the dev tools I use on Mac
   - Sublime Text
   - Visual Studio Code
   - Postman
+- Webstorm
+  - Import config
+- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh/wiki)
+  - Import .zshrc
+  - [Install theme : Agnoster](https://github.com/agnoster/agnoster-zsh-theme)
+      - [Install powerline fonts](https://github.com/powerline/fonts)
+  - [Install plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
+      - See .zshrc for list
+- [nvm](https://github.com/nvm-sh/nvm)
